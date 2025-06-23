@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+gesture_env/
+.venv
+gesture_data/
+.ipynb_checkpoints/
+*.env
+
