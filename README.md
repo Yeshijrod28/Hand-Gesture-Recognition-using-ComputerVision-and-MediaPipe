@@ -70,7 +70,8 @@ The system have these main parts:
 - **Data Collection:** Custom images were collected for three gestures: kuzuzangpo, iloveyou, and peace sign.
 - **Hand Landmark Detection:** MediaPipe is used to extract hand landmarks from each video frame.
 - **Gesture Classification:** An LSTM model is trained to recognize sequences of hand movements and classify them into one of the three gestures.
-![Screenshot 2025-06-24 023500](https://github.com/user-attachments/assets/1cbf829c-a405-4789-8b3c-d4c1fefdff7a)
+  
+- ![Screenshot 2025-06-24 023500](https://github.com/user-attachments/assets/1cbf829c-a405-4789-8b3c-d4c1fefdff7a)
 
 
 ## Project Structure
