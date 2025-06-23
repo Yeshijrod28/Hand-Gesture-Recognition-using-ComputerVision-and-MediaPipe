@@ -3,7 +3,7 @@
 Predicting hand gestures in real time using your webcam. It utilizes OpenCV for image processing, MediaPipe for hand landmark detection and an LSTM (Long Short-Term Memory) neural network for gesture sequence classification.
 
 ---
-##Project Overview
+## Project Overview
 
 The system have these main parts:
 - Data Collection: Captures hand gestures via webcam using OpenCV
@@ -23,25 +23,16 @@ The system have these main parts:
 - Pandas and Matplotlib for visualization
 ---
 ### Data Collection 
--
-![Screenshot 2025-06-24 011036](https://github.com/user-attachments/assets/3e22542e-749a-40a2-b347-8a1869c060b9)
-![Screenshot 2025-06-24 010949](https://github.com/user-attachments/assets/27640571-a218-4ed3-86a8-d14dd1c20f73)
+ ![Screenshot 2025-06-24 011036](https://github.com/user-attachments/assets/3e22542e-749a-40a2-b347-8a1869c060b9)
+ ![Screenshot 2025-06-24 010949](https://github.com/user-attachments/assets/27640571-a218-4ed3-86a8-d14dd1c20f73)
 ---
 ## Demo Prediction Example
-https://drive.google.com/file/d/1NdPz_-Bkr3fchtDG7XSSbD_2wU13-_ID/view?usp=drive_link
+- https://drive.google.com/file/d/1NdPz_-Bkr3fchtDG7XSSbD_2wU13-_ID/view?usp=drive_link
 ---
 ### Prerequisites
 
 - Python 3.8 or higher recommended
 - A webcam
-
-### Dependencies
-
-Install all required packages using pip:
-
-```bash
-pip install -r requirements.txt
-```
 
 **Key dependencies:**
 - opencv-python
@@ -65,19 +56,22 @@ pip install -r requirements.txt
     ```bash
     pip install -r requirements.txt
     ```
-
-3. Run the main script (replace `main.py` with your actual entry point if it’s different):
+3. Run the .ipynb file
+   
+4. Run the main script:
     ```bash
     python main.py
     ```
 
-4. Present one of the supported gestures in front of your webcam to see the prediction.
+5. Present one of the supported gestures in front of your webcam to see the prediction.
 
 ## Model Details
 
 - **Data Collection:** Custom images were collected for three gestures: kuzuzangpo, iloveyou, and peace sign.
 - **Hand Landmark Detection:** MediaPipe is used to extract hand landmarks from each video frame.
 - **Gesture Classification:** An LSTM model is trained to recognize sequences of hand movements and classify them into one of the three gestures.
+![Screenshot 2025-06-24 023500](https://github.com/user-attachments/assets/1cbf829c-a405-4789-8b3c-d4c1fefdff7a)
+
 
 ## Project Structure
 
@@ -85,8 +79,9 @@ pip install -r requirements.txt
 hand-gesture-recognition-using-computerVision-and-MediaPipe/
 ├── gesture_data/                       # Collected gesture data
 ├── gesture_env
-├── processed_data/
 ├── models/                     # Trained models
+├── processed_data/
+├── main.py
 ├── requirements.txt
 └── ...
 ```
