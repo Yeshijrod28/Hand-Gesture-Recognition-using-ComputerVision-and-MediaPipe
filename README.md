@@ -5,21 +5,19 @@ Predicting hand gestures in real time using your webcam. It utilizes OpenCV for 
 ---
 ##Project Overview
 
-The system will have these main parts:
-
--
--Data Collection: Captures hand gestures via webcam using OpenCV
--Preprocessing: Extracts hand landmarks using MediaPipe, normalize and sequence the data
--Model Training: Build and train an LSTM model using TensorFlow/Keras
--Prediction & Output: Real-time gesture recognition with text-to-speech conversion
+The system have these main parts:
+- Data Collection: Captures hand gestures via webcam using OpenCV
+- Preprocessing: Extracts hand landmarks using MediaPipe, normalize and sequence the data
+- Model Training: Build and train an LSTM model using TensorFlow/Keras
+- Prediction & Output: Real-time gesture recognition with text-to-speech conversion
 
 ---
 ## Features
 - Real-time hand gesture recognition via webcam
 - Custom dataset for three gestures:
-  - **Kuzuzangpo**
-  - **I Love You**
-  - **Peace Sign**
+  - **Kuzuzangpo** 👋
+  - **I Love You** 🤟
+  - **Peace Sign** ✌️
 - Uses OpenCV, MediaPipe, and an LSTM deep learning model
 - Uses pyttsx3 to convert detected gestures into speech
 - Pandas and Matplotlib for visualization
