@@ -87,5 +87,3 @@ hand-gesture-recognition-using-computerVision-and-MediaPipe/
 └── ...
 ```
 
-**Author:** Yeshijrod28  
-For questions or contributions, feel free to open an issue or pull request.
