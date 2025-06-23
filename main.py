@@ -7,7 +7,7 @@ import mediapipe as mp
 import joblib 
 
 # === Load model and label encoder ===
-model = tf.keras.models.load_model('.models/best_gesture_model.h5')
+model = tf.keras.models.load_model('./models/best_gesture_model.h5')
 label_encoder = joblib.load('./processed_data/label_encoder.pkl') 
 
 # === Initialize MediaPipe ===
