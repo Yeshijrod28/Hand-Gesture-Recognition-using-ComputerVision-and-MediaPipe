@@ -1,14 +1,18 @@
 # hand-gesture-recognition-using-computerVision-and-MediaPipe
 
 Predicting hand gestures in real time using your webcam. It utilizes OpenCV for image processing, MediaPipe for hand landmark detection and an LSTM (Long Short-Term Memory) neural network for gesture sequence classification.
+
 ---
 ##Project Overview
+
 The system will have these main parts:
 
+-
 -Data Collection: Captures hand gestures via webcam using OpenCV
 -Preprocessing: Extracts hand landmarks using MediaPipe, normalize and sequence the data
 -Model Training: Build and train an LSTM model using TensorFlow/Keras
 -Prediction & Output: Real-time gesture recognition with text-to-speech conversion
+
 ---
 ## Features
 - Real-time hand gesture recognition via webcam
@@ -21,13 +25,13 @@ The system will have these main parts:
 - Pandas and Matplotlib for visualization
 ---
 ### Data Collection 
+-
 ![Screenshot 2025-06-24 011036](https://github.com/user-attachments/assets/3e22542e-749a-40a2-b347-8a1869c060b9)
 ![Screenshot 2025-06-24 010949](https://github.com/user-attachments/assets/27640571-a218-4ed3-86a8-d14dd1c20f73)
 ---
 ## Demo Prediction Example
 https://drive.google.com/file/d/1NdPz_-Bkr3fchtDG7XSSbD_2wU13-_ID/view?usp=drive_link
 ---
-
 ### Prerequisites
 
 - Python 3.8 or higher recommended
