@@ -27,7 +27,7 @@ The system have these main parts:
  ![Screenshot 2025-06-24 010949](https://github.com/user-attachments/assets/27640571-a218-4ed3-86a8-d14dd1c20f73)
 ---
 ## Demo Prediction Example
-- https://drive.google.com/file/d/1NdPz_-Bkr3fchtDG7XSSbD_2wU13-_ID/view?usp=drive_link
+- https://drive.google.com/file/d/1NdPz_-Bkr3fchtDG7XSSbD_2wU13-_ID/view?usp=sharing
 ---
 ### Prerequisites
 
